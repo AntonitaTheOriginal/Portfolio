@@ -14,16 +14,21 @@
 </head>
 
 <body>
-    <header>
+    <header id="home"> <!-- Added id for Home -->
         <div class="container">
             <nav class="flex items-centre justify-between">
                 <div class="left flex justfiy-right">
                     <div class="logo"> <img src="https://github.com/AntonitaTheOriginal/Portfolio/blob/main/profile.JPG?raw=true" width="50px" alt="logo"> </div>
-                    <div> <a href="#">Home</a> <a href="#">About</a> <a href="#">Services</a> <a href="#">Blog</a></li>
-                        <a href="#">More</a> </div>
+                    <div> 
+                        <a href="#home">Home</a> <!-- Linked to Home -->
+                        <a href="#about">About</a> <!-- Linked to About -->
+                        <a href="#services">Services</a> <!-- Linked to Services -->
+                        <a href="#blog">Blog</a> <!-- Linked to Blog -->
+                        <a href="#more">More</a> <!-- Linked to More -->
+                    </div>
                 </div>
                 <div class="right"> 
-                    <a href="#contact" class="btn btn-primary">Contact</a> <!-- Updated button to link to contact section -->
+                    <a href="#contact" class="btn btn-primary">Contact</a> <!-- Linked to Contact -->
                 </div>
             </nav>
         </div>
@@ -42,12 +47,15 @@
                     Skilled in Python, Java, SQL, and Frontend Development.  
                     Aspiring to create innovative and user-friendly digital solutions. 
                 </p>
-                <div><button class="btn btn-secondary">DOWNLOAD CV</button></div>
-            </div>
+                <div>
+                    <a href="assets/Resume Antonita.pdf" download class="btn btn-secondary">DOWNLOAD CV</a>
+                </div>
+
+                
         </div>
     </header>
 
-    <section class="about">
+    <section id="about" class="about"> <!-- Added id for About -->
         <div class="container flex items-centre">
             <div class="left flex-1 justify-right">
                 <img src="https://github.com/AntonitaTheOriginal/Portfolio/blob/main/profile.JPG?raw=true"
@@ -79,50 +87,67 @@
         </div>
     </section>
 
-    <section class="services">
+    <section id="services" class="services"> <!-- Added id for Services -->
         <div class="container">
             <h1 class="services-head">Services</h1>
             <p>All your digital needs... covered.</p>
             <div class="card-grid">
                 <div class="card">
-                    <img src="https://source.unsplash.com/1600x900/?nature,water" />
+                    <img src="https://cdn.prod.website-files.com/65130e79c72ae8812db3412e/6718fbb85d1152665bfafec4_Untitled%20design%20(14).jpg" />
                     <h2>Graphic Design</h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Nulla, debitis?
+                        I specialize in creating stunning visuals that capture your brand’s essence. From logos and branding to marketing materials and social media graphics, I design with precision and creativity to make your brand stand out. Whether it’s print or digital, I bring ideas to life with a blend of artistry and strategy.
                     </p>
                 </div>
                 <div class="card">
-                    <img src="https://source.unsplash.com/1600x900/?boy,men" />
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9huvd-IGjFhmvNOVS13tldGCSNOgdsSLvoQ&s" />
                     <h2>Web Development</h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Nulla, debitis?
+                        I develop responsive, user-friendly websites that are not only visually appealing but also highly functional. From front-end design to back-end development, I ensure your website is fast, secure, and optimized for all devices. Let’s create a digital presence that drives results.
                     </p>
                 </div>
                 <div class="card">
-                    <img src="https://source.unsplash.com/1600x900/?car,bike" />
+                    <img src="https://wri8.com/images/blog/b22.png" />
                     <h2>Content Writing</h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Nulla, debitis?
+                        I create compelling content that resonates with your audience. Whether it’s blog posts, website copy, or marketing campaigns, I craft words that tell your story, build trust, and drive action. Let’s turn your ideas into impactful content.
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
+    <section id="blog" class="blog"> <!-- Added id for Blog -->
+        <div class="container">
+            <h1 class="blog-head">Blog</h1>
+            <p>Check out my latest articles and updates.</p>
+            <div class="blog-content">
+                <p>Coming soon! Stay tuned for insightful posts on web development, AI, and more.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="more" class="more"> <!-- Added id for More -->
+        <div class="container">
+            <h1 class="more-head">More</h1>
+            <p>Explore additional information about my work and interests.</p>
+            <div class="more-content">
+                <p>Details about my projects, hobbies, and more will be added here.</p>
+            </div>
+        </div>
+    </section>
+
     <!-- Contact Section -->
-    <section id="contact" class="contact"> <!-- Added id for linking -->
+    <section id="contact" class="contact"> <!-- Added id for Contact -->
         <div class="container">
             <h1 class="contact-head">Contact Me</h1>
             <p>Feel free to reach out to me for any inquiries or collaborations.</p>
             <div class="contact-info">
                 <div class="contact-details">
                     <h2>Contact Information</h2>
-                    <p><strong>Email:</strong> antonitaevelyn@gmail.com</p>
-                    <p><strong>Phone:</strong> +91 97899 21190</p>
-                    <p><strong>Location:</strong> Chennai, India.</p>
+                    <p><strong>Email:</strong> antonita.evelyn@example.com</p>
+                    <p><strong>Phone:</strong> +123 456 7890</p>
+                    <p><strong>Address:</strong> 123 Main Street, City, Country</p>
                 </div>
             </div>
         </div>
